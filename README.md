@@ -1,56 +1,56 @@
-# $ Crypto-Hub
+# 💰 Crypto-Hub
 
-A Minimalistic, Dynamic crytocurrency dashboard built using react , tailwind leveraging the CoinGecko API to display various live metrics of cryptocurrencies with user authentication.
+A **minimalistic, dynamic cryptocurrency dashboard** built with **React** and **TailwindCSS**, leveraging the **CoinGecko API** to display live crypto metrics with **Firebase authentication & Firestore database support**.
 
+---
 
-##  Features
+## ✨ Features
 
--  **Real-Time Tracking** – Live data for major cryptocurrencies (price, market cap, 24h volume, 24h/7d change).  
--  **Detailed Coin Views** – Interactive charts and in-depth statistics.  
--  **Dark Mode** – Clean and modern dark interface.  
--  **Favorites** – Save coins to track your personal portfolio.  
+- 📊 **Real-Time Tracking** – Live data for major cryptocurrencies (price, market cap, 24h volume, 24h/7d change).  
+- **Detailed Coin Views** – Interactive charts and in-depth statistics.  
+- 🌙 **Dark Mode** – Clean and modern dark interface.  
+- ⭐ **Favorites** – Save coins to track your personal portfolio.  
 -  **Instant Search** – Quickly filter coins by name.  
--  **Responsive Design** – Works seamlessly on mobile and desktop.
+-  **Responsive Design** – Optimized for both desktop and mobile devices.  
 
--  ##  Demo
+---
 
-https://cryptohub-43ec5.web.app/
+##  Demo
 
-## Screenshots
+[Live Demo](https://cryptohub-43ec5.web.app/)
 
-### Dashboard
-## Desktop View
-<img width="797" height="863" alt="image" src="https://github.com/user-attachments/assets/a42b1d2b-454b-464a-8bc6-964ff80f0eb0" />
-<img width="743" height="826" alt="image" src="https://github.com/user-attachments/assets/b9c35746-42cd-4b2a-9092-83091aa631cc" />
-<img width="767" height="648" alt="image" src="https://github.com/user-attachments/assets/81e4f1de-99e5-42f6-80f0-97fb5ca0f7d0" />
+---
 
-## Mobile View
+## 📷 Screenshots
 
-<img width="720" height="1539" alt="image" src="https://github.com/user-attachments/assets/cc97611a-4109-42d1-a6ee-24aab8db493b" />
-<img width="720" height="1502" alt="image" src="https://github.com/user-attachments/assets/27574fbd-2593-4457-8a41-d9a6332257c1" />
+### 🖥️ Desktop View
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a42b1d2b-454b-464a-8bc6-964ff80f0eb0" width="700" alt="Dashboard Screenshot"/>
+  <img src="https://github.com/user-attachments/assets/b9c35746-42cd-4b2a-9092-83091aa631cc" width="700" alt="Coin List Screenshot"/>
+  <img src="https://github.com/user-attachments/assets/81e4f1de-99e5-42f6-80f0-97fb5ca0f7d0" width="700" alt="Detailed Coin Screenshot"/>
+</p>
 
-## Tech Stack
+### 📱 Mobile View
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cc97611a-4109-42d1-a6ee-24aab8db493b" width="300" alt="Mobile Dashboard"/>
+  <img src="https://github.com/user-attachments/assets/27574fbd-2593-4457-8a41-d9a6332257c1" width="300" alt="Mobile Coin Details"/>
+</p>
 
-- **React** – Component-based UI  
-- **TailwindCSS** – Utility-first styling
-- **Firebase and Firestore**- For Auth and Database
-- **Coingecko API** – Live crypto data source  
+---
 
+## 🛠️ Tech Stack
 
-## Installation & setup
+- ⚛ **React** – Component-based UI  
+- 🎨 **TailwindCSS** – Utility-first styling  
+- 🔐 **Firebase Authentication** – User login/signup  
+- 📂 **Firestore Database** – Save user favorites and data  
+- 📡 **CoinGecko API** – Live crypto data source  
 
-1) Clone the repo
->> git clone https://github.com/gottostartsomewhere/crypto-hub.git
->> cd crypto-hub
+---
 
-2) Install NPM and run locally 
+## ⚡ Installation & Setup
 
->> npm install
->>npm run build
-
-Note: CoinGecko API Limits and Firebase Usage might've changed with dates as all this was done with free tier memberships.
-
-
-
-
-
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/gottostartsomewhere/crypto-hub.git
+   cd crypto-hub
