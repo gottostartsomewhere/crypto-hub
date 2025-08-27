@@ -54,3 +54,9 @@ A **minimalistic, dynamic cryptocurrency dashboard** built with **React** and **
    ```bash
    git clone https://github.com/gottostartsomewhere/crypto-hub.git
    cd crypto-hub
+2. **Install Npm and Run the App**
+  ```bash
+  npm install
+  npm start
+  npm run build
+
