@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# $ Crypto-Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Minimalistic, Dynamic crytocurrency dashboard built using react , tailwind leveraging the CoinGecko API to display various live metrics of cryptocurrencies with user authentication.
 
-## Available Scripts
 
-In the project directory, you can run:
+##  Features
 
-### `yarn start`
+-  **Real-Time Tracking** – Live data for major cryptocurrencies (price, market cap, 24h volume, 24h/7d change).  
+-  **Detailed Coin Views** – Interactive charts and in-depth statistics.  
+-  **Dark Mode** – Clean and modern dark interface.  
+-  **Favorites** – Save coins to track your personal portfolio.  
+-  **Instant Search** – Quickly filter coins by name.  
+-  **Responsive Design** – Works seamlessly on mobile and desktop.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-  ##  Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://cryptohub-43ec5.web.app/
 
-### `yarn test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Dashboard
+## Desktop View
+<img width="797" height="863" alt="image" src="https://github.com/user-attachments/assets/a42b1d2b-454b-464a-8bc6-964ff80f0eb0" />
+<img width="743" height="826" alt="image" src="https://github.com/user-attachments/assets/b9c35746-42cd-4b2a-9092-83091aa631cc" />
+<img width="767" height="648" alt="image" src="https://github.com/user-attachments/assets/81e4f1de-99e5-42f6-80f0-97fb5ca0f7d0" />
 
-### `yarn build`
+## Mobile View
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="720" height="1539" alt="image" src="https://github.com/user-attachments/assets/cc97611a-4109-42d1-a6ee-24aab8db493b" />
+<img width="720" height="1502" alt="image" src="https://github.com/user-attachments/assets/27574fbd-2593-4457-8a41-d9a6332257c1" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React** – Component-based UI  
+- **TailwindCSS** – Utility-first styling
+- **Firebase and Firestore**- For Auth and Database
+- **Coingecko API** – Live crypto data source  
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation & setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1) Clone the repo
+>> git clone https://github.com/gottostartsomewhere/crypto-hub.git
+>> cd crypto-hub
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2) Install NPM and run locally 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+>> npm install
+>>npm run build
 
-## Learn More
+Note: CoinGecko API Limits and Firebase Usage might've changed with dates as all this was done with free tier memberships.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
